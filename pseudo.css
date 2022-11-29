@@ -1,0 +1,39 @@
+h1 {
+  color: blue;
+}
+
+h1:hover {
+  color: red;
+}
+
+p:active {
+  background-color: grey;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:link {
+  color: orange;
+}
+
+img:hover {
+  display: none;
+}
+
+li:nth-child(2n + 0) {
+  color: blue;
+}
+
+li:hover li:nth-child(2n + 0) {
+  color: black;
+}
+
+li:hover:nth-child(2n + 1) {
+  color: blue;
+}
+
+*{
+    cursor: wait;
+}
