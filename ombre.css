@@ -1,0 +1,11 @@
+#a{
+    box-shadow: 1px 1px 20px rgb(225, 52, 52);
+}
+
+#b{
+    box-shadow: -20px 15px 3px rgb(123, 190, 22);
+}
+
+h1{
+    text-shadow: 15px -10px 5px purple;
+}
