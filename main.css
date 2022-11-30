@@ -1,22 +1,38 @@
 .de {
     height: 50px;
     width: 50px;
-    background-color: grey;
+    background-color: rgb(188, 186, 186);
     border: 1px solid red;
-    border-radius: 10%;
+    border-radius: 20%;
     flex-direction: row;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+}
+
+.deux {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.trois {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 point1 {
     height: 5px;
     width: 5px;
     border-radius: 50%;
-    background-color: red ;
+    background-color: red;
     display:inline-block;
     flex-direction: row;
     align-self: center;
 }
 
+#hello {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
