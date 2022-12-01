@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="formulaire.css" />
+        <title>Doc</title>
+    </head>
+
+    <body>
+        <div id="div">
+            <h1>Connexion</h1>
+            <form method="POST" action="monProgramme.php">
+                <label for="pseudo" class="trente">Pseudo:</label>
+                <input type="text" name="pseudo" placeholder="Mon pseudo" minlenght="2" maxlength="20"/>
+                <br>
+
+                <label for="mdp" class="trente">Mot de passe:</label>
+                <input type="text" name="mdp" placeholder="Mon mot de passe" minlenght="8" maxlength="30" />
+                <br>
+
+                <input id="box" type="checkbox" checked class="checkbox"/>
+                <label for="checkbox">Se souvenir de moi</label>
+                <br>
+                <div id="a">
+                    <input type="submit" value="Connexion"/>
+                    <input type="reset" value="Retour"/>
+                </div>
+            </form>  
+        </div>
+    </body>
+</html>
