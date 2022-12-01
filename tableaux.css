@@ -1,0 +1,18 @@
+table{
+    border-collapse: collapse;
+    display: table;
+    box-sizing: border-box;
+    text-align: center;
+}
+#a{
+    border: thick double purple;
+}
+
+#a th{
+    background-color: rgb(85, 195, 255);
+}
+
+td,th{
+    border: 2px solid rgb(0, 0, 0);
+}
+
