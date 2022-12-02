@@ -1,15 +1,16 @@
-@media only screen and (mix-width:801px) {
+@media only screen and (max-width:800px) {
     *{
         background-image: radial-gradient(#CCDAE0 0%,#EDF2F4 0%);
     }
 
-    header{
-        text-align: center;
+    header div img{
+        width: 100px;
+        height: 210px;
     }
 
-    header div img{
-        width:300px;
-        height:700px;
+    header{
+        display: flex;
+        justify-content: left;   
     }
 
     h1{
@@ -18,52 +19,51 @@
         font-weight: bold;
         font-family: Impact;
     }
-
+    
     h3{
         color: #2B2D42;
         font-size: 25px;
         font-weight: bold;
         text-decoration: underline dotted;
     }
-
+    
     article{
         border: 1px solid black;
-        margin-bottom: 5px;
+        margin-bottom: 50px;
     }
-
+    
     article img{
         text-align:center;
         margin:auto;
         display:flex;
         border: 2px solid #8D99AE;
     }
-
+    
     footer{
         text-align: right;
     }
-
+    
     ul{
         list-style-type: none;
     }
-
+    
     a:link{
         color: #D90429;
     }
-
+    
     a:visited{
         color: grey;
     }
-
+    
     a:hover{
         color: #2B2D42;
     }
-
+    
     .obl::after{
         content: "⭐";
     }
-
+    
     span{
         color: red;
     }
 }
-
