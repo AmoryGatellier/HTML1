@@ -1,4 +1,4 @@
-@media only screen and (mix-width:801px) {
+@media only screen and (min-width:800px) {
     *{
         background-image: radial-gradient(#CCDAE0 0%,#EDF2F4 0%);
     }
@@ -8,8 +8,8 @@
     }
 
     header div img{
-        width:300px;
-        height:700px;
+        width:800px;
+        height:200px;
     }
 
     h1{

@@ -8,9 +8,8 @@
         height: 210px;
     }
 
-    header{
-        display: flex;
-        justify-content: left;   
+    div{
+        display: grid;
     }
 
     h1{
