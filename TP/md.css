@@ -1,0 +1,82 @@
+*{
+    background-color: rgb(200, 200, 200);
+}
+
+p{
+    background-color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    color: blue;
+}
+
+h1{
+    color: rgb(160, 160, 160);
+}
+
+h3{
+    color: rgb(140, 140, 140);
+}
+
+@media all and (orientation:portrait){
+    #f{
+        background-color: blue;
+    }
+
+    li:nth-child(2)::after{
+        content:"@media all and (orientation:portrait)" ;
+    }
+}
+
+@media all and (orientation:landscape){
+    #e{
+        background-color: blue;
+    }
+
+    li:nth-child(2)::after{
+        content:"@media all and (orientation:landscape)" ;
+    }
+}
+
+@media all and (max-width:480px){
+    #d{
+        background-color: blue;
+    }
+    li:nth-child(1)::after{
+        content:"@media all and (max-width:480px)" ;
+    }
+
+}
+
+@media all and (max-width:1280px) and (min-width:1024px){
+    #c{
+        background-color: blue;
+    }
+    li:nth-child(1)::after{
+        content:"@media all and (max-width:1280px) and (min-width:1024px)" ;
+    }
+}
+
+@media all and (min-width:800px){
+    #b{
+        background-color: blue;
+    }
+
+    li:nth-child(1)::after{
+        content:"@media all and (min-width:800px)" ;
+    }
+}
+
+@media all and (max-width:640px){
+    #a{
+        background-color: blue;
+    }
+
+    li:nth-child(1)::after{
+        content:"@media all and (max-width:640px)" ;
+    }
+}

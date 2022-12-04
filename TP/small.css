@@ -9,7 +9,8 @@
     }
 
     div{
-        display: grid;
+        display: flex;
+        text-align: center;
     }
 
     h1{
@@ -17,6 +18,7 @@
         font-size: 50px;
         font-weight: bold;
         font-family: Impact;
+        margin-left: 30px;
     }
     
     h3{
