@@ -1,0 +1,20 @@
+body{
+    background-color: gray;
+}
+
+audio{
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+
+video{
+    border: 2px solid red;
+}
+
+iframe{
+    border: 5px double blue;
+}
+
+iframe,video,audio{
+    margin: 50px
+}
