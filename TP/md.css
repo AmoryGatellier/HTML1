@@ -22,16 +22,44 @@ h3{
     color: rgb(140, 140, 140);
 }
 
-@media all and (orientation:portrait){
-    #f{
+@media screen and (max-width: 640px){
+    #a{
         background-color: blue;
     }
 
-    li:nth-child(2)::after{
-        content:"@media all and (orientation:portrait)" ;
+    li:nth-child(1)::after{
+        content:"@media screen and (max-width: 640px)" ;
     }
 }
 
+@media screen and (min-width: 800px) {
+    #b{
+        background-color: blue;
+    }
+
+    li:nth-child(1)::after{
+        content:"@media all and (min-width:800px)" ;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    #c{
+        background-color: blue;
+    }
+    li:nth-child(1)::after{
+        content:"@media all and (max-width:1280px) and (min-width:1024px) " " @media all and (min-width:800px)" ;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    #d{
+        background-color: blue;
+    }
+    li:nth-child(1)::after{
+        content:"@media all and (max-width:480px) " " @media screen and (max-width: 640px)" ;
+    }
+
+}
 @media all and (orientation:landscape){
     #e{
         background-color: blue;
@@ -42,41 +70,12 @@ h3{
     }
 }
 
-@media all and (max-width:480px){
-    #d{
-        background-color: blue;
-    }
-    li:nth-child(1)::after{
-        content:"@media all and (max-width:480px)" ;
-    }
-
-}
-
-@media all and (max-width:1280px) and (min-width:1024px){
-    #c{
-        background-color: blue;
-    }
-    li:nth-child(1)::after{
-        content:"@media all and (max-width:1280px) and (min-width:1024px)" ;
-    }
-}
-
-@media all and (min-width:800px){
-    #b{
+@media all and (orientation:portrait){
+    #f{
         background-color: blue;
     }
 
-    li:nth-child(1)::after{
-        content:"@media all and (min-width:800px)" ;
-    }
-}
-
-@media all and (max-width:640px){
-    #a{
-        background-color: blue;
-    }
-
-    li:nth-child(1)::after{
-        content:"@media all and (max-width:640px)" ;
+    li:nth-child(2)::after{
+        content:"@media all and (orientation:portrait)" ;
     }
 }
